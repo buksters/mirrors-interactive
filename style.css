@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+canvas {
+  display: block;
+  margin-top: 20px;
+  outline: rgb(208, 208, 208) solid 2px;
+
+}
+
+button {
+  margin-inline: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: rgb(66, 66, 66);
+}
+
+button:focus {
+  color: rgb(44,111,239);
+  border-color: rgb(44,111,239);
+}
+
+p {
+  line-height: 22px;
+  margin-top: 20px;
+  /* text-align: center; */
+  max-width: 700px;
+  margin-bottom: 20px;
+}
