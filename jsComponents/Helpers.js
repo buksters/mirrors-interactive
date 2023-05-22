@@ -1,4 +1,5 @@
 // --- Some Helper Functions ---
+// finding intersection between 2 line segments, finding intersection between a line segment and a circle, and visualizing a vector
 
 // line intercept math by Paul Bourke http://paulbourke.net/geometry/pointlineplane/
 // Determine the intersection point of two line segments

@@ -87,7 +87,7 @@ function dblPlane(){
 function convex(){
   mirrors = [convexMirror]
   planeMode = false;
-  prompt.html("When dealing with spherical mirrors, finding the distance of reflected images isn't as straightforward, and unlike flat mirrors, the size of the reflected images are different from the actual objects. With a convex mirror, like the one shown here, light rays are reflected outward when they hit the mirror surface. If you extend the reflected rays past the mirror, the point where they intersect is where the image is formed. <br> <br> Try changing the curvature of the mirror with the slider or dragging the object closer or further away from the mirror. How does it affect the reflected image?");
+  prompt.html("When dealing with spherical mirrors, finding the distance of reflected images is a little trickier, and unlike flat mirrors, the size of the reflected image is different from the actual object. With a convex mirror, like the one shown here, the location where the image is formed can be found by extending the reflected rays behind the mirror and seeing where they intersect. Due to the curve of the mirror surface, the reflected image ends up smaller and closer* to the mirror than the actual object. <br> <br> Try changing the curvature of the mirror with the slider or dragging the object closer or further away from the mirror. How does it affect the reflected image? <br> <br> *Yet they appear further away because they're smaller - hence the <i>objects in mirror are closer than they appear</i> sign on a car's sideview mirror, which is a convex mirror!");
 }
 
 function concave(){
